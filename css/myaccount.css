@@ -1,0 +1,309 @@
+body {
+	font-family: Inconsolata;
+}
+
+div {
+	display: block;
+}
+
+marquee {
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+marquee a span {
+	margin-right: 60px;
+}
+
+.navbar-brand {
+	font-size: 25px;
+	margin-top: -9px;
+}
+
+.nav-link {
+	margin-right: 30px;
+}
+
+.menu:hover::after {
+	content: ' ';
+	display: block;
+	border-bottom: 1px solid black;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+}
+
+.sale:hover::after {
+	content: ' ';
+	display: block;
+	border-bottom: 1px solid black;
+	width: 50%;
+	margin: auto;
+	margin-top: -1px;
+}
+
+.dollar {
+	margin-top: 5px;
+}
+
+.list-inline-item .fas {
+	color: black;
+}
+
+.link {
+	color: black;
+}
+
+.link:hover {
+	color: black;
+}
+
+.pilih {
+	outline: none;
+}
+
+
+
+
+
+/* CSS cart.php */
+div.cart-section {
+	display: flex;
+}
+
+div.row-myaccount {
+	width: 100%;
+	margin-top: 50px;
+}
+
+div.col-md-4.myaccount-side {
+	margin-top: inherit;
+	margin-left: -40px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+div.col-md-8.cart-data {
+	margin-left: -70px;
+	font-size: 14px;
+}
+
+table.shop-table {
+	text-align: left;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+
+ul.ul-cart-side {
+	list-style-type: none;
+}
+
+.cart-table-row th {
+	padding: 9px 12px;
+	font-weight: normal;
+}
+
+th.product-name {
+	width: 32%
+}
+
+tr.data-cart-row td {
+	font-size: 14px;
+	letter-spacing: 1px;
+	border: none;
+	padding: 9px 12px;
+	/*vertical-align: middle;*/
+	/*line-height: 3px;*/
+}
+
+td.product-thumbnail {
+	width: 100px;
+}
+
+td.product-name {}
+
+td.product-quantity {
+	width: 15%;
+	min-width: 70px;
+	text-align: center;
+}
+
+td.product-subtotal {
+	width: 15%;
+}
+
+table.shop-table td:last-child {
+	padding-bottom: 10;
+}
+
+._flex-col {
+	display: flex;
+	flex-direction: column;
+}
+
+._h-center {
+	justify-content: center;
+}
+
+._text-right {
+	text-align: right;
+}
+
+._text-left {
+	text-align: left;
+}
+
+.coupon {
+	display: flex;
+	justify-content: space-between;
+	width: 51%;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.coupon input[type=text] {
+	width: 200px;
+	height: 43px !important;
+	margin-right: 20px;
+	height: 45px;
+	border: none;
+	letter-spacing: 1px;
+	border-bottom: 1px solid black;
+}
+
+.coupon input[type=submit] {
+	font-weight: normal;
+	margin-left: 10px;
+	letter-spacing: 2px;
+	background: none;
+	border: 1px solid darkgrey;
+	padding: 11px;
+	/*
+	border-radius: 0;
+	transition: all 0.25s ease;
+	display: inline-block;
+	float: none;
+	*/
+}
+
+div.subtotal {
+	padding-top: 25px;
+	float: right;
+	width: 52.5%;
+	padding-right: 13px;
+}
+
+.cart-total {
+	width: 100%;
+}
+
+table.cart-total-table {
+	width: 100%;
+}
+
+table.cart-total-table tr {
+	font-size: 14px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	margin-bottom: 10px;
+	line-height: 3;
+}
+
+table.cart-total-table th {
+	font-weight: normal;
+}
+
+table.cart-total-table td {
+	text-align: right;
+}
+
+button.checkout-btn {
+	margin-top: 20px;
+	letter-spacing: 1px;
+	padding: 15px;
+	width: 100%;
+	border: 1px solid darkgrey;
+	color: black;
+	background: none;
+	outline: 1px;
+}
+
+button.qty-btn {
+	font-size: 8px;
+}
+
+input.quantity-input {
+	font-size: 14px;
+	outline: none;
+	text-align: center;
+}
+
+input.qty {
+	outline: 1px;
+	text-align: center;
+	width: 55%;
+	margin-right: 35%;
+}
+
+
+form.edit-account {
+	font-size: 15px;
+}
+
+div.row.input-row {
+	display: flex;
+}
+
+div.form-group {
+	margin: 0 0 6px;
+	width: 40%;
+}
+
+div.form-row-first {
+	float: left;
+	margin-right: 100px;
+}
+
+div.form-row-last {
+	float: right;
+}
+
+input.form-input {
+	border: none;
+	border-bottom: 1px solid black;
+	padding: 12px 0;
+}
+
+input#username.form-control {
+	padding-left: 10px;
+}
+
+input#email.form-control {
+	padding-left: 10px;
+}
+
+input {
+	outline: none;
+}
+
+input.form-control {
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+button.btn-edit {
+	outline: 1px solid darkgrey;
+	font-size: 14px;
+	margin-left: -15px;
+	background: none;
+	border: 1px solid black;
+	padding: 10px 15px 10px;
+	font-weight: normal;
+	margin-top: 30px;
+}
+
+div.form-group label {
+	margin-bottom: -30px;
+}

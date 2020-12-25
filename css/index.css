@@ -1,0 +1,121 @@
+body {
+  font-family: Inconsolata;
+}
+.navbar-brand {
+  font-size: 25px;
+  margin-top: -10px;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.menu:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid white;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.sale:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid white;
+  width: 50%;
+  margin: auto;
+  margin-top: -1px;
+}
+.dollar {
+  margin-top: 5px;
+}
+.list-inline-item .fas {
+  color: black;
+}
+.jumbotron {
+  background-image: url(../assets/img/page/home-bg.jpg);
+  background-size: cover;
+  height: 780px;
+  margin-top: -85px;
+}
+.card {
+  color : white;
+  border-color: white;
+  margin: auto;
+  width: 50%;
+}
+.more:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid darkkhaki;
+  width: 5%;
+  margin: auto;
+  margin-top: -1px;
+}
+.her {
+  margin-top: 150px;
+}
+.customer {
+  margin-top: 295px;
+  font-size: 13px;
+  float: left;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  color: black;
+}
+.pilih {
+  outline: none;
+}
+
+
+
+
+/* catalog */
+div.jumbotron-home {
+  margin-top: 100px;
+  padding: 10px 30px 10px;
+  display: flex;
+}
+div.row {
+  display: flex;
+  margin-right: auto;
+}
+img.home-pic {
+  width: 106%;
+  border: none;
+  margin-bottom: 5px
+}
+
+/* grid section */
+section.home-grid {
+  padding: 90px 0px 70px;
+}
+div.grid-home-container {
+  width: unset;
+}
+.container-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -21px;
+}
+div.item-grid {
+  width: 10%;
+  height: auto;
+}
+.link-grid {
+  display: block;
+  position: relative;
+  margin: 24px;
+}
+.link-grid:after {
+  display: block;
+  position: absolute;
+}
+div.caption-grid {
+  width: 50%;
+}
+img.img-grid {
+  width: 80px;
+  padding: 0 5px 0;
+}

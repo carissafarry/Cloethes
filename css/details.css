@@ -1,0 +1,163 @@
+body {
+  font-family: Inconsolata;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-top: -10px;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.menu:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.sale:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: -1px;
+}
+.dollar {
+  margin-top: 5px;
+}
+.list-inline-item .fas {
+  color: black;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  color: black;
+}
+
+
+
+
+/* CSS details.php */
+.products {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: flex;
+}
+.productpic {
+	background: #555;
+	width: 60px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+.row {
+	display: flex;
+	
+}
+div.carousel {
+	width: 400px;
+}
+
+.col-md-5 {
+	max-width: max-content;
+}
+
+
+.col-md-7 h4 {
+	color: #555;
+}
+.sticky {
+	margin: 0px 30px 0px;
+	top: 215px;
+	position: sticky;
+	font-size: 14px;
+}
+
+.textbox {
+	width: 68%;
+	font-size: 15px;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+	display: flex;
+}
+.textbox select {
+	background: none;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+img.arrow {
+	float: right;
+	width: 26%;
+	margin-left: 289px;
+	
+}
+img.btn.arrow {
+	padding: .0rem .3rem;
+}
+button.add-btn {
+	border: none;
+	background: none;
+	outline: none;
+}
+.outline-0 {
+	outline: none;
+}
+marquee {
+	font-size: 13px;
+	margin-top: 5px;
+}
+marquee a span {
+	margin-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+/*
+#mycart .cart-data {
+	width: 85%;
+	padding-left: 0;
+	padding-right: 20%;
+	min-height: 400px;
+}
+.cart-data form {
+	display: block;
+}
+.cart-data table.shop-table {
+	border: none;
+	margin: 0 -1px 24px 0;
+	text-align: left;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+
+#mycart .form-cart table.shop-table th {
+	font-size: 15px;
+	font-weight: normal;
+}
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+th {
+	display: table-cell;
+	vertical-align: inherit;
+	text-align: -internal-center;
+}
+*/

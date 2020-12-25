@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inconsolata;
+  background: none;
+  color: black;
+}
+/* navbar css */
+.navbar-brand {
+  font-size: 25px;
+  margin-top: -10px;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.menu:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.sale:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: -1px;
+}
+.dollar {
+  margin-top: 5px;
+}
+.list-inline-item .fas {
+  color: black;
+}
+
+/* login form css */
+.login-box {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.login-box h1 {
+  font-size: 35px;
+  border-bottom: 1px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.login-box p {
+  font-size: 13px;
+  color: black;
+  margin-left: 20px;
+}
+
+.textbox {
+  width: 95%;
+  overflow: hidden;
+  font-size: 15px;
+  padding: 8px 0;
+  margin: 20px 20px;
+  border-bottom: 1px solid black;
+}
+
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 15px;
+  width: 75%;
+}
+
+.arrow {
+	width: 85%;
+	
+	float: right;
+}
+
+.link {
+	color: black;
+}
+
+.link:hover {
+	color: black;
+}
+.sosmed {
+	float: right;
+	margin-left: 9px;
+	margin-right: 0;
+}
+button.login_button {
+	border: none;
+	background: none;
+	margin-left: 320px;
+	outline: none;
+}
+div.password-box {
+	display: flex;
+}
+input.password {
+	margin-left: 8px;
+}

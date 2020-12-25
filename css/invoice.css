@@ -1,0 +1,178 @@
+body {
+  font-family: Inconsolata;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-top: -10px;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.menu:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.sale:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: -1px;
+}
+.dollar {
+  margin-top: 5px;
+}
+.list-inline-item .fas {
+  color: black;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  color: black;
+}
+.pilih {
+  outline: none;
+}
+marquee {
+	font-size: 13px;
+	margin-top: 5px;
+}
+marquee a span {
+	margin-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+/* Invoice css */
+ul.ul-cart-side {
+	list-style-type: none;
+}
+div.cart-section {
+	display: flex;
+}
+div.row-invoice {
+	width: 100%;
+	margin-top: 50px;
+}
+
+div.col-md-4.myaccount-side {
+	margin-top: inherit;
+	margin-left: -40px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+div.col-md-8.cart-data {
+	margin-left: -70px;
+	font-size: 14px;
+}
+
+.invoice-caption {
+	margin-left: -16px;
+}
+h6.invoice-caption {
+	margin-left: -16px;
+}
+.right-inline {
+	float: right;
+	text-align: end;
+}
+.invoice-detail {
+	font-size: 15px;
+	font-weight: bold;
+
+}
+div.order-summary {
+	display: block;
+	width: 100%;
+}
+tr {
+	border-bottom: 1px solid lightgrey;
+	width: 80%;
+}
+._text-right {
+	text-align: right;
+}
+._text-center {
+	text-align: center;
+}
+._text-left {
+	text-align: left;
+}
+div.invoice-row {
+	font-size: 14px;
+}
+table.shop-table {
+	width: 90%;
+	line-height: 40px;
+	font-size: 14px;
+}
+.little-left {
+	margin-left: -15px;
+}
+.bold {
+	font-weight: bold;
+}
+th.head {
+	width: 20%;
+}
+button.pay-btn {
+	outline: 1px solid darkgrey;
+	
+	background: none;
+	border: none;
+	padding: 10px 15px 10px;
+	margin-top: 30px;
+	width: 110px;
+}
+.img-invoice {
+	width: 40%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+th.product-name {
+	width: 20%;
+}
+th.product-quantity {
+	width: 20%;
+}
+
+div.payment-col {
+	float: right;
+}
+div.pay-table {
+	display: flex;
+	padding-top: 10px;
+}
+div.payment-table {
+	padding-right: 8%;
+}
+div.payment-col {
+	width: 100%;
+}
+table.total-payment {
+	width: 50%;
+	float: right;
+	line-height: 3rem;
+}
+td.payment-td {
+	padding-left: 120px;
+	text-align: center;
+}
+.mr-x {
+	padding-left: 102px;
+	text-align: center;
+}

@@ -1,0 +1,263 @@
+body {
+  font-family: Inconsolata;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-top: -10px;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.menu:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.sale:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: -1px;
+}
+.dollar {
+  margin-top: 5px;
+}
+.list-inline-item .fas {
+  color: black;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  color: black;
+}
+.pilih {
+  outline: none;
+}
+marquee {
+	font-size: 13px;
+	margin-top: 5px;
+}
+marquee a span {
+	margin-right: 60px;
+}
+
+
+
+
+/* CSS cart.php */
+div.cart-section {
+	display: flex;
+}
+div.row-cart {
+	width: 100%;
+	margin-top: 70px;
+}
+
+div.col-md-4.cart-side {
+	margin-top: auto;
+	padding-bottom: 80px;
+	margin-right: -80px;
+	margin-left: -40px;
+	font-size: 13px;
+}
+
+div.col-md-8.cart-data {
+	font-size: 14px;
+}
+
+table.shop-table {
+	text-align: left;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+ul.ul-cart-side {
+	list-style-type: none;
+}
+
+.cart-table-row th {
+	padding: 9px 12px;
+	font-weight: normal;
+}
+th.product-name {
+	width: 32%
+}
+tr.data-cart-row td {
+	font-size: 14px;
+	letter-spacing: 1px;
+	border: none;
+	padding: 9px 12px;
+	/*vertical-align: middle;*/
+	/*line-height: 3px;*/
+}
+td.product-thumbnail {
+	width: 100px;
+}
+
+td.product-quantity {
+	width: 15%;
+	min-width: 70px;
+	text-align: center;
+}
+td.product-subtotal {
+	width: 15%;
+}
+table.shop-table td:last-child {
+	padding-bottom: 10;
+}
+._flex-col {
+	display: flex;
+	flex-direction: column;
+}
+._h-center {
+	justify-content: center;
+}
+._text-right {
+	text-align: right;
+}
+._text-left {
+	text-align: left;
+}
+.coupon {
+	display: flex;
+	justify-content: space-between;
+	width: 51%;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.coupon input[type=text] {
+	width: 200px;
+	height: 43px!important;
+	margin-right: 20px;
+	height: 45px;
+	border: none;
+	letter-spacing: 1px;
+	border-bottom: 1px solid black;
+}
+
+.coupon input[type=submit] {
+	font-weight: normal;
+	margin-left: 10px;
+	letter-spacing: 2px;
+	background: none;
+	border: 1px solid darkgrey;
+	padding: 11px;
+	/*
+	border-radius: 0;
+	transition: all 0.25s ease;
+	display: inline-block;
+	float: none;
+	*/
+}
+
+div.subtotal {
+	padding-top: 25px;
+	float: right;
+	width: 52.5%;
+	padding-right: 13px;
+}
+.cart-total {
+	width: 100%;
+}
+
+table.cart-total-table {
+	width: 100%;
+}
+table.cart-total-table tr {
+	font-size: 14px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 10px;
+	line-height: 3;
+}
+table.cart-total-table th {
+	font-weight: normal;
+}
+table.cart-total-table td {
+	text-align: right;
+}
+button.checkout-btn {
+	margin-top: 20px;
+	letter-spacing: 1px;
+	padding: 15px;
+	width: 100%;
+	border: 1px solid darkgrey;
+	color: black;	
+	background: none;
+	outline: 1px;
+}
+button.qty-btn {
+	font-size: 8px;
+}
+input.quantity-input {
+	font-size: 14px;
+	outline: none;
+	text-align: center;
+}
+input.qty {
+	outline: 1px;
+	text-align: center;
+	width: 55%;
+	margin-right: 35%; 
+}
+
+
+/* End quantity css */
+
+
+/*
+.subtotal {
+	padding-top: 20px;
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+.cart-total {
+	width: 100%;
+}
+table.cart-total-table {
+	border: none;
+	margin-bottom: 0;
+}
+table.cart-total-table th {
+	letter-spacing: 2px;
+	padding-left: 0;
+}
+table.cart-total-table td {
+	text-align: right;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding: 9px 12px;
+	line-height: 3px;
+	border: none;
+
+}
+table.cart-total-table td:last-child {
+	padding-bottom: 0;
+}/
+.order-total th {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.checkout {
+	padding-right: 10px;
+	margin-top: 15px;
+}
+.checkout-btn {
+	font-size: 14px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+	border: 1px solid #000;
+	color: black;
+	font-weight: normal;
+}
+*

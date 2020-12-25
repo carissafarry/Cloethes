@@ -1,0 +1,79 @@
+body {
+  font-family: Inconsolata;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+.nav-link {
+  margin-right: 30px;
+}
+
+.menu:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.sale:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: -1px;
+}
+
+.dollar {
+  margin-top: 5px;
+}
+
+.list-inline-item .fas {
+  color: black;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: black;
+}
+
+.pilih {
+  outline: none;
+}
+
+marquee {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+marquee a span {
+  margin-right: 60px;
+}
+
+
+
+
+
+/* thank you page css */
+div.thankyou-container {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+a.btn.vieworder-btn {
+  background: none;
+  border: 1px solid #b3b3b3;
+  padding: 13px 15px 13px;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-top: 15px;
+}

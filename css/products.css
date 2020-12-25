@@ -1,0 +1,85 @@
+body {
+  font-family: Inconsolata;
+}
+div {
+  display: block;
+}
+marquee.marquee {
+  font-size: 13px;
+  margin-top: 5px;
+}
+marquee a span {
+  margin-right: 60px;
+}
+.navbar-brand {
+  font-size: 25px;
+  margin-top: -9px;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.menu:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+.sale:hover::after {
+  content: ' ';
+  display: block;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: -1px;
+}
+.dollar {
+  margin-top: 5px;
+}
+.list-inline-item .fas {
+  color: black;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  color: black;
+}
+.pilih {
+  outline: none;
+}
+.price {
+  font-size: 13px;
+}
+.card-title {
+  font-size: 13px;
+}
+
+.pagination>.page-item>.page-link, .page-item>span {
+  border: 0;
+  color: black;
+  font-size: 12px;
+  line-height: 30px;
+  margin: 3px;
+  float: center !important;
+
+  padding: 0 13px;
+  height: 30px;
+  border-radius: 30px;
+  transition: all .3s;
+}
+.pagination>.page-item.active>a, span:hover {
+  color: white;
+  float: center !important;
+}
+.pagination.pagination-info>.page-item.active>a, span:hover {
+  background-color: black;
+  float: center !important;
+}
+.category{
+  display: none;
+}
+.judul {
+  font-size: 13px;
+}
