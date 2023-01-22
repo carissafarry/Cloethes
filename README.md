@@ -3,6 +3,10 @@ Online shopping market, Cloethes, using PHP
 
 Hosting : https://cloethes.carissafarry.my.id/
 
+You can use my account:
+- Username: carissafarry
+- Password: carissafarry
+
 
 Installation:
 - Place the project directory in the XAMPP folder
