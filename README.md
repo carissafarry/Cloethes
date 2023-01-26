@@ -1,6 +1,8 @@
 # Cloethes
 Online shopping market, Cloethes, using PHP
 
+This is my first project as a programmer. Hope you enjoy!
+
 Hosting : https://cloethes.carissafarry.my.id/
 
 You can use my account:
